@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemclick"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:elevation="4dp"
+            android:gravity="center_horizontal"
+            app:title="Danh Sách Đồ Uống"
+            android:titleTextColor="@android:color/white"
+
+            />
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="Tìm kiếm món ăn..." />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvdouong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+</LinearLayout>

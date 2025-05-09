@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RecyclerView để hiển thị danh sách món ăn -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- EditText cho tên món ăn -->
+    <EditText
+        android:id="@+id/edtFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên món ăn"/>
+
+    <!-- EditText cho giá món ăn -->
+    <EditText
+        android:id="@+id/edtFoodPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá món ăn"
+        android:inputType="numberDecimal"/>
+
+    <!-- EditText cho mô tả món ăn -->
+    <EditText
+        android:id="@+id/edtFoodDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả món ăn"/>
+
+    <!-- Button để thêm món ăn mới -->
+    <Button
+        android:id="@+id/btnAddFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm món ăn"/>
+</LinearLayout>

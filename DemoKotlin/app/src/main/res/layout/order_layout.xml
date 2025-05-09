@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/edittext_background2"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvMaDonHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã Đơn Hàng:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvTenMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Món:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên khách hàng:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvnumberphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số Điện Thoại:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvdiachikhachhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Địa Chỉ:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng tiền: 500,000 VNĐ"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trạng thái: Đang xử lý"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#F44336" />
+
+    </LinearLayout>
+
+</LinearLayout>

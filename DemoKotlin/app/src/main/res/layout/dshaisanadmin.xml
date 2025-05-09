@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Hình ảnh món ăn -->
+    <ImageView
+        android:id="@+id/imgFood"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/icvitquay" />
+
+    <!-- Tên món ăn -->
+    <TextView
+        android:id="@+id/txtFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên món ăn"
+        android:textSize="18sp" />
+
+    <!-- Giá món ăn -->
+    <TextView
+        android:id="@+id/txtFoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/txtDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="Mô Tả:" />
+
+    <!-- Nút sửa -->
+    <Button
+        android:id="@+id/btnEditFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa" />
+
+    <!-- Nút xóa -->
+    <Button
+        android:id="@+id/btnDeleteFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Màu nền của shape -->
+    <solid android:color="#FFFFFF"/> <!-- Màu trắng, có thể thay đổi -->
+
+    <!-- Viền của shape -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF0000"/> <!-- Màu viền đỏ, có thể thay đổi -->
+
+    <!-- Bo góc -->
+    <corners android:radius="20dp"/> <!-- Điều chỉnh bán kính bo góc -->
+
+    <!-- Tạo khoảng cách bên trong (padding) nếu cần -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp"/>
+</shape>

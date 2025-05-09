@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RecyclerView để hiển thị danh sách món ăn -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFoodList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="16dp" />
+
+    <!-- Form để thêm món ăn mới -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Tên món ăn -->
+        <EditText
+            android:id="@+id/editTextTenMon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên món ăn"
+            android:inputType="text" />
+
+        <!-- Loại món ăn -->
+        <EditText
+            android:id="@+id/editTextLoaiMon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Loại món ăn(Hải Sản,Đồ Uống,Bò Gà Vịt)"
+            android:inputType="text" />
+
+        <!-- Giá tiền món ăn -->
+        <EditText
+            android:id="@+id/editTextGiaTien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá tiền"
+            android:inputType="numberDecimal" />
+
+        <!-- Mô tả món ăn -->
+        <EditText
+            android:id="@+id/editTextMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mô tả"
+            android:inputType="text" />
+
+        <!-- Nút thêm món ăn -->
+        <Button
+            android:id="@+id/btnAddFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm món ăn" />
+        <Button
+            android:id="@+id/btnupdatefood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập Nhật món ăn" />
+    </LinearLayout>
+
+</LinearLayout>

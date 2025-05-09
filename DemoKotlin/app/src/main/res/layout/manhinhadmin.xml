@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#CA1E1E"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/noEntryImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/khongphansucamvao"
+        app:layout_constraintBottom_toTopOf="@+id/doanhThuButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/crudButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRUD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doanhThuButton" />
+
+    <Button
+        android:id="@+id/doanhThuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doanh Thu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noEntryImage" />
+
+    <Button
+        android:id="@+id/dangXuatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Xuất"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crudButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
